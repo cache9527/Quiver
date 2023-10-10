@@ -8,6 +8,7 @@
 Lib\F.lua
 Constants.lua
 Locale\enUS.lua
+Locale\zhCN.lua
 
 Lib\Aura.lua
 Lib\Print.lua
