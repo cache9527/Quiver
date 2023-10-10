@@ -59,7 +59,7 @@ QUIVER_T = {
 		Serpent_Sting = "毒蛇钉刺",--"Serpent Sting",
 		Tranquilizing_Shot = "宁神射击",--"Tranquilizing Shot",
 		Trueshot = "稳固射击",--"Trueshot",
-		Viper_Sting = "毒蛇钉刺",--"Viper Sting",
+		Viper_Sting = "蝰蛇钉刺",--"Viper Sting",
 		Wyvern_Sting = "翼龙射击",--"Wyvern Sting",
 		-- Trap
 		Explosive_Trap = "爆炸陷阱",--"Explosive Trap",
@@ -75,7 +75,7 @@ QUIVER_T = {
 		Quick_Shots = "快速射击",--"Quick Shots",
 		Rapid_Fire = "急速射击",--"Rapid Fire",
 		Hunters_Mark = "猎人标记",--"Hunter's Mark",
-		Scare_Beast = "恐惧野兽",--"Scare Beast",
+		Scare_Beast = "恐吓野兽",--"Scare Beast",
 		TrueshotAura = "强击光环",--"Trueshot Aura",
 		Wing_Clip = "摔绊",--"Wing Clip",
 	},
