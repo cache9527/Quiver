@@ -1,3 +1,5 @@
+if GetLocale() == "zhCN" then
+
 QUIVER_T = {
 	CombatLog = {
 		Consumes = {
