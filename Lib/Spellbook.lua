@@ -2,8 +2,8 @@ local HUNTER_CASTABLE_SHOTS = {
 	[QUIVER_T.Spellbook.Aimed_Shot] = 3.0,
 	[QUIVER_T.Spellbook.Multi_Shot] = 0.5,
 	-- Trueshot(SteadyShot) cast time is 1.0s on turtlewow
-	-- [QUIVER_T.Spellbook.Trueshot] = 1.3,
-	[QUIVER_T.Spellbook.Trueshot] = 1.0,
+	[QUIVER_T.Spellbook.Trueshot] = 1.3,
+	--[QUIVER_T.Spellbook.Trueshot] = 1.0,
 }
 
 local _HUNTER_INSTANT_SHOTS = {
