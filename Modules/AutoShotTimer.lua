@@ -255,9 +255,15 @@ local onEnable = function()
 		SLASH_QQAIMEDSHOT1 = "/qqaimedshot"
 		SLASH_QQMULTISHOT1 = "/qqmultishot"
 		SLASH_QQTRUESHOT1 = "/qqtrueshot"
-		SlashCmdList["QQAIMEDSHOT"] = castNoClip("QUIVER_T.Spellbook.Aimed_Shot")
-		SlashCmdList["QQMULTISHOT"] = castNoClip("QUIVER_T.Spellbook.Multi_Shot")
-		SlashCmdList["QQTRUESHOT"] = castNoClip("QUIVER_T.Spellbook.Trueshot")
+		if ( GetLocale() == "zhCN" ) then
+			SlashCmdList["QQAIMEDSHOT"] = castNoClip("瞄准射击")
+			SlashCmdList["QQMULTISHOT"] = castNoClip("多重射击")
+			SlashCmdList["QQTRUESHOT"] = castNoClip("稳固射击")
+		else
+			SlashCmdList["QQAIMEDSHOT"] = castNoClip("Aimed Shot")
+			SlashCmdList["QQMULTISHOT"] = castNoClip("Multi-Shot")
+			SlashCmdList["QQTRUESHOT"] = castNoClip("Trueshot")
+		end
 	end
 	frame:SetScript("OnEvent", handleEvent)
 	frame:SetScript("OnUpdate", handleUpdate)
